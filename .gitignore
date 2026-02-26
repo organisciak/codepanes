@@ -1,0 +1,24 @@
+# Local agent / tool configuration
+.agent-tmux.conf
+
+# OS
+.DS_Store
+
+# Node
+node_modules/
+dist/
+*.local
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Logs
+*.log
+
+# Shared package — compiled-in-place TypeScript artifacts
+# (source .ts files are used directly via tsx; .js/.d.ts are transient)
+shared/src/**/*.js
+shared/src/**/*.js.map
+shared/src/**/*.d.ts
