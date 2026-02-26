@@ -1,6 +1,6 @@
-# Claude Code Chat
+# Codepanes
 
-A web app that provides a polished chat UI for Claude Code running on a remote server, using SSH/Mosh + tmux as the transport layer.
+A web app that provides a polished chat UI for AI coding agents (like Claude Code) running on a remote server, using SSH + tmux as the transport layer.
 
 ## Vision
 
