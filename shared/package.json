@@ -1,0 +1,21 @@
+{
+  "name": "@claude-code-chat/shared",
+  "version": "0.1.0",
+  "description": "Shared types and utilities for Claude Code Chat",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./types": "./src/types/session.ts",
+    "./parser": "./src/parser/jsonl-parser.ts",
+    "./terminal": "./src/terminal/state-parser.ts"
+  },
+  "scripts": {
+    "test": "node --import tsx/esm --test 'src/**/*.test.ts'",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
